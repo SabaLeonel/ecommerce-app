@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev-front": "nx serve ecom-frontend "
+    "dev": "nx serve ecom-frontend "
   },
   "private": true,
   "dependencies": {
@@ -17,6 +17,10 @@
     "@angular/platform-server": "~19.1.0",
     "@angular/router": "~19.1.0",
     "@angular/ssr": "~19.1.0",
+    "@fortawesome/angular-fontawesome": "^1.0.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "express": "^4.21.2",
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
