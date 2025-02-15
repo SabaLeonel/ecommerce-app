@@ -22,25 +22,24 @@ module.exports = {
       '5xl': '3.052em',
     },
     extend: {},
-    daisyui: {
-      themes: [
-        {
-          fantasy: {
-            primary: '#0000ff',
-            'primary-content': 'white',
-            secondary: '#F6F6F6',
-            neutral: '#E8E8E8',
-          },
+  },
+  daisyui: {
+    themes: [
+      {
+        fantasy: {
+          primary: '#0000ff',
+          'primary-content': 'white',
+          secondary: '#F6F6F6',
+          neutral: '#E8E8E8',
         },
-      ],
-      base:true,
-      styled: true,
-      utils:true,
-      prefix:'',
-      logs:true,
-      themeRoot:'root'
-    },
-
+      },
+    ],
+    base: true,
+    styled: true,
+    utils: true,
+    prefix: '',
+    logs: true,
+    themeRoot: ':root'
   },
   plugins: [
     require('@tailwindcss/typography'),
