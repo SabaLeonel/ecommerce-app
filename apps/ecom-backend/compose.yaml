@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    environment:
+      - 'POSTGRES_USER=42lausanne'
+      - 'POSTGRES_PASSWORD=42lausanne'
+      - 'POSTGRES_DB=42lausanne'
+    volumes:
+      - './volumes/quezada-dev/postgres:/var/lib/postgresql/data'
