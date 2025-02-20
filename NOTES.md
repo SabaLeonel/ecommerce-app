@@ -1,6 +1,5 @@
 # Problems encountered during development
 
-
 1. Font awesome icons not found in the app.html
 Solution:
 -  missing import of "FaIconComponent" in the app.component.ts 
@@ -20,4 +19,11 @@ Solution:
 - Fixed the configuration in the tailwind.config.js and updated the daisyui settings
 
 5. Fatal error when serving backend with NX indicating it's the java version 21 that's seems to be the problem
+
+- WSL had installed java sdk 11 and to serve the backend i needed the same java version using sudo apt install openjdk-21-headless and sudo update-alternatives --config java allowed to update my version
+
+6. nx serve backend-ecom build failed
+
+- Using debug logs -Dspring-boot.run.profiles=local in backend\projects.json -X it showed docker wasn't running
+
 
